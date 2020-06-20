@@ -1,0 +1,15 @@
+name: voice
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - matplotlib
+  - scipy
+  - jupyter
+  - jupyterlab
+  - pip:
+    - librosa
+    - tkinter
+    - PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
